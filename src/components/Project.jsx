@@ -1,11 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Minitrello from "../assets/images/chalocar.png";
-import chalocar from "../assets/images/minitrello.png";
+import chalocar from "../assets/images/Minitrello.png";
 import Pizza from "../assets/images/pizza.png";
-import projectFour from "../assets/images/project-4.png";
-import projectSix from "../assets/images/project-6.png"; 
-import projectSeven from "../assets/images/project-7.png";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -30,25 +27,7 @@ const Project = () => {
       github_link: "https://github.com/Subhransu47/Pizza_Clone",
       live_link: "https://pizzaclone.vercel.app/",
     },
-    // {
-    //   img: projectFour,
-    //   name: "Quizzify",
-    //   github_link:
-    //     "https://github.com/aryyan0701/Quizzify",
-    //   live_link: "https://quizzad.netlify.app/",
-    // },
-    // {
-    //   img: projectSix,
-    //   name: "Bloggify",
-    //   github_link: "https://github.com/aryyan0701/Bloggify",
-    //   live_link: "https://aryyan0701.github.io/Bloggify/",
-    // },
-    // {
-    //   img: projectSeven,
-    //   name: "Sandbox Clone",
-    //   github_link: "https://github.com/aryyan0701/sandbox_clone",
-    //  live_link: "https://aryyan0701.github.io/sandbox_clone/",
-    // },
+   
   ];
   return (
     <section id="projects" className="py-20 text-white">
