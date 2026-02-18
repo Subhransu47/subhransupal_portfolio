@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Minitrello from "../assets/images/chalocar.png";
 import chalocar from "../assets/images/Minitrello.png";
-import Pizza from "../assets/images/pizza.png";
+import Pizza from "../assets/images/Pizza.png";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
