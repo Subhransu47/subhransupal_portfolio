@@ -1,8 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import projectOne from "../assets/images/chalocar.png";
-import projectTwo from "../assets/images/minitrello.png";
-import projectThree from "../assets/images/pizza.png";
+import Minitrello from "../assets/images/chalocar.png";
+import chalocar from "../assets/images/minitrello.png";
+import Pizza from "../assets/images/pizza.png";
 import projectFour from "../assets/images/project-4.png";
 import projectSix from "../assets/images/project-6.png"; 
 import projectSeven from "../assets/images/project-7.png";
@@ -13,19 +13,19 @@ import "swiper/css/pagination";
 const Project = () => {
   const projects = [
     {
-      img: projectTwo,
+      img: Minitrello,
       name: "Mini_Trello",
       github_link: "https://github.com/Pradeep8118/SDP_Exam2",
       live_link: "https://minitrello-react-nwgg.vercel.app/",
     },
     {
-      img: projectOne,
+      img: chalocar,
       name: "Chalo Car",
       github_link: "https://github.com/biswaranjanbehera006/ChaloCar",
       live_link: "https://chalo-car.vercel.app/",
     },
        {
-      img: projectThree,
+      img: Pizza,
       name: "Pizza_Clone",
       github_link: "https://github.com/Subhransu47/Pizza_Clone",
       live_link: "https://pizzaclone.vercel.app/",
