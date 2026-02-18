@@ -1,8 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import projectOne from "../assets/images/project-1.png";
-import projectTwo from "../assets/images/project-2.png";
-import projectThree from "../assets/images/project-3.png";
+import projectOne from "../assets/images/chalocar.png";
+import projectTwo from "../assets/images/minitrello.png";
+import projectThree from "../assets/images/pizza.png";
 import projectFour from "../assets/images/project-4.png";
 import projectSix from "../assets/images/project-6.png"; 
 import projectSeven from "../assets/images/project-7.png";
@@ -14,41 +14,41 @@ const Project = () => {
   const projects = [
     {
       img: projectTwo,
-      name: "Netflix Clone",
-      github_link: "https://github.com/aryyan0701/Netflix_Clone",
-      //live_link: "https://myjobsearch.netlify.app",
+      name: "Mini_Trello",
+      github_link: "https://github.com/Pradeep8118/SDP_Exam2",
+      live_link: "https://minitrello-react-nwgg.vercel.app/",
     },
     {
       img: projectOne,
-      name: "Type Verse (Check your typing speed)",
-      github_link: "https://github.com/aryyan0701/type_verse",
-      live_link: "https://aryyan0701.github.io/type_verse/",
+      name: "Chalo Car",
+      github_link: "https://github.com/biswaranjanbehera006/ChaloCar",
+      live_link: "https://chalo-car.vercel.app/",
     },
        {
       img: projectThree,
-      name: "Currency converter",
-      github_link: "https://github.com/aryyan0701/Currency_converter",
-     // live_link: "https://highking01.netlify.app",
+      name: "Pizza_Clone",
+      github_link: "https://github.com/Subhransu47/Pizza_Clone",
+      live_link: "https://pizzaclone.vercel.app/",
     },
-    {
-      img: projectFour,
-      name: "Quizzify",
-      github_link:
-        "https://github.com/aryyan0701/Quizzify",
-      live_link: "https://quizzad.netlify.app/",
-    },
-    {
-      img: projectSix,
-      name: "Bloggify",
-      github_link: "https://github.com/aryyan0701/Bloggify",
-      live_link: "https://aryyan0701.github.io/Bloggify/",
-    },
-    {
-      img: projectSeven,
-      name: "Sandbox Clone",
-      github_link: "https://github.com/aryyan0701/sandbox_clone",
-     live_link: "https://aryyan0701.github.io/sandbox_clone/",
-    },
+    // {
+    //   img: projectFour,
+    //   name: "Quizzify",
+    //   github_link:
+    //     "https://github.com/aryyan0701/Quizzify",
+    //   live_link: "https://quizzad.netlify.app/",
+    // },
+    // {
+    //   img: projectSix,
+    //   name: "Bloggify",
+    //   github_link: "https://github.com/aryyan0701/Bloggify",
+    //   live_link: "https://aryyan0701.github.io/Bloggify/",
+    // },
+    // {
+    //   img: projectSeven,
+    //   name: "Sandbox Clone",
+    //   github_link: "https://github.com/aryyan0701/sandbox_clone",
+    //  live_link: "https://aryyan0701.github.io/sandbox_clone/",
+    // },
   ];
   return (
     <section id="projects" className="py-20 text-white">

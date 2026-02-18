@@ -44,12 +44,12 @@ const Skills = () => {
       count: 50,
     },
 
-    {
-      name: "FIREBASE",
-      logo: <SiFirebase />,
-      level: "Beginner",
-      count: 40,
-    },
+    // {
+    //   name: "FIREBASE",
+    //   logo: <SiFirebase />,
+    //   level: "Beginner",
+    //   count: 40,
+    // },
     {
       name: "NODE JS",
       logo: <SiNodedotjs />,

@@ -2,7 +2,7 @@ import React from "react";
 const About = () => {
   const info = [
     // { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "10" },
+    { text: "Completed Projects", count: "03" },
     { text: "Companies Work", count: "01" }
   ];
 
@@ -25,11 +25,11 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-              I am currently pursuing b.tech in IT, As a Developer specializing in web development With hands-on experience in crafting dynamic user interfaces, I bring a blend of creativity and technical expertise to my role.
-                <br />Having secured an internship as a Frontend Developer at a reputable company, I've dived headfirst into Angular development, harnessing the power of Bootstrap for responsive and visually appealing designs. Additionally, my journey has acquainted me with Node.js, empowering me to contribute to server-side functionalities as well.
+              I am currently pursuing my Master of Computer Applications (MCA) at GIFT Autonomous College, Bhubaneswar, with a strong focus on full-stack web development. As a MERN Stack Developer, I specialize in building scalable, high-performance web applications using modern technologies.
+                <br />With hands-on experience in crafting responsive and intuitive user interfaces, I bring a balanced blend of creativity and technical expertise. My development journey has equipped me with solid proficiency in MongoDB, Express.js, React.js, and Node.js, enabling me to work confidently across both frontend and backend layers
                 <br />
-                Beyond Angular, I possess a versatile skill set. I am proficient in javascript, TypeScript, React.js, Bootstrap, Firebase, and GitHub, ensuring that I am well-equipped to adapt to diverse project requirements.
-                <br /> My focus lies in delivering exceptional user experiences through intuitive and scalable UI components.I have honed my skills in crafting impressive user interfaces, ensuring seamless navigation and optimal performance across devices.
+                Beyond the MERN stack, I am skilled in JavaScript, TypeScript, Tailwind CSS, Bootstrap, Firebase, and Git/GitHub, allowing me to adapt seamlessly to diverse project requirements. I am deeply focused on delivering exceptional user experiences through clean, maintainable code, optimized performance, and visually engaging UI components.
+                <br /> Driven by continuous learning and innovation, I strive to build impactful digital solutions that are both user-centric and scalable.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
