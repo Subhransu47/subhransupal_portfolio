@@ -6,7 +6,7 @@ const Education = () => {
       logo: "logo-arrow",
       degree: 'Master of Computer Applications (MCA)',
       institution: 'GIFT Autonomous, Bhubaneswar',
-      grades: 'CGPA: 8.13',
+      grades: 'CGPA: 8.11',
       year: ' [2024–2026]',
       desc: "I am currently pursuing a Master’s degree in Computer Applications (MCA) at GIFT Autonomous, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.11.",
     },
